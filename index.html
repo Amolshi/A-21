@@ -3,7 +3,6 @@
 <head>
     <title>calculator</title>
     <style>
-
         .calculator {
             height: 300px;
             width: 280px;
@@ -13,11 +12,9 @@
             padding: 20px;
             padding-top: 20px;
         }
-
         .btn-equal {
             height: 70px;
         }
-
         .screen {
             background-color: #a1af77;
             text-align: right;
@@ -27,8 +24,8 @@
             font-size: 25px;
             padding: 5px 10px;
             margin-bottom: 35px;
+            border-radius: 8px;
         }
-
         .container-btn {
             height: 200px;
             display: flex;
@@ -37,9 +34,16 @@
             justify-content: space-between;
             align-items: center;
         }
-
         .btn-ac {
-            background-color: red;
+            background-color:   red;
+            width: 51px;
+            text-align: center;
+            padding: 2px 0;
+            font-size: 20px;
+            margin: 3px;
+            border: 0.5px solid black;
+            border-radius: 10px;
+            cursor: pointer;
         }
 
         .btn {
@@ -61,7 +65,7 @@
         <input type="text" value="0" class="screen" />
 
         <div class="container-btn">
-            <button class="btn btn-ac">AC</button>
+            <button class=" btn-ac">AC</button>
             <button class="btn">7</button>
             <button class="btn">4</button>
             <button class="btn">1</button>
@@ -76,14 +80,15 @@
             <button class="btn">6</button>
             <button class="btn">3</button>
             <button class="btn">%</button>
-            <button class="btn">/</button>
             <button class="btn">cos</button>
-            <button class="btn">tan</button>
-            <button class="btn">log</button>
-            <button class="btn">Ans</button>
             <button class="btn">x</button>
             <button class="btn">-</button>
             <button class="btn">+</button>
+            <button class="btn">/</button>
+            <button class="btn">tan</button>
+            <button class="btn">log</button>
+            <button class="btn">Ans</button>
+           
             <button class="btn btn-equal">=</button>
         </div>
     </div>
